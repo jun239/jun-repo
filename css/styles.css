@@ -150,3 +150,37 @@ body {
   transform: translateY(-50%) translateX(-50%);
   width: 100%;
 }
+
+/* スマホ定義 */
+@media screen and (max-width: 600px) {
+  .balloon5 .faceicon-r img {
+    margin-left: 15rem;
+  }
+  .balloon5 .faceicon img {
+    margin-left: 1rem;
+  }
+
+  .says-r {
+    position: absolute;
+    left: 0;
+  }
+
+  .balloon5 .chatting {
+    position: relative;
+  }
+
+  .failText {
+    font-size: 3rem;
+  }
+
+  .failSays {
+    width: 14rem;
+    height: 5rem;
+    font-size: 1rem;
+  }
+
+  .balloon5 .faceicon img.failImg {
+    margin-left: 0;
+    width: 110%;
+  }
+}
